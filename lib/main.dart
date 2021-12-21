@@ -1,3 +1,4 @@
+import 'package:bloc_practice/ui/choose.dart';
 import 'package:bloc_practice/ui/frame.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: frame(),
+      home: choose(),
     );
   }
 }
